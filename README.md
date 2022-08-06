@@ -8,7 +8,7 @@ Because all machine learning techniques are attempting to predict future outcome
 
 ### Oversampling
 - Typical drawback of this method: Oversampling is prone to overfitting. Overfitting often fails to predict future data reliably because results correspond too closely or exactly to the training and test sets.
-- Accuracy Score: 66% (0.6620175698580149)
+- Accuracy Score: **66%** (0.6620175698580149)
 - Confusion Matrix:
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
@@ -20,7 +20,7 @@ Because all machine learning techniques are attempting to predict future outcome
 
 ### Oversampling with SMOTE (Synthetic Minority Oversampling Technique)
 - Typical drawback of this method: SMOTE is still oversampling and is still prone to overfitting. Using the synthetic method can help to overcome class imbalances and lessen the exactness of outcome dependency on minority classes.
-- Accuracy Score: 66% (0.6568196079430206)
+- Accuracy Score: **66%** (0.6568196079430206)
 - Confusion Matrix
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
@@ -31,8 +31,8 @@ Because all machine learning techniques are attempting to predict future outcome
 - Imbalanced Classification Report
 
 ### Undersampling
-- Typical drawback of this method: Undersampling tries to balance data by keeping all minority classes. Undersampling can often lower accuracy for datasets having a high number of minority classes.
-- Accuracy Score: 54% (0.5442661782548694)
+- Typical drawback of this method: Undersampling tries to balance data by keeping all minority classes. Undersampling can often lower accuracy for datasets having minority classes not closely correlated to the majority classes.
+- Accuracy Score: **54%** (0.5442661782548694)
 - Confusion Matrix: 
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
@@ -44,7 +44,7 @@ Because all machine learning techniques are attempting to predict future outcome
 
 ### Combination (Over+Under) Sampling with SMOTEENN (Edited Nearest Neighbors)
 - Typical drawback of this method:
-- Accuracy Score: 65% (0.6461148570422992)
+- Accuracy Score: **65%** (0.6461148570422992)
 - Confusion Matrix
   	
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
@@ -56,7 +56,7 @@ Because all machine learning techniques are attempting to predict future outcome
 
 ### Ensemble Learning with Random Forest
 - Typical drawback of this method:
-- Accuracy Score: 79% (0.7885466545953005) 
+- Accuracy Score: **79%** (0.7885466545953005) 
 - Confusion Matrix:
   	
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
@@ -68,7 +68,7 @@ Because all machine learning techniques are attempting to predict future outcome
 
 ### Ensemble Learning with Easy Ensemble
 - Typical drawback of this method:
-- Accuracy Score: 93% (0.9316600714093861)
+- Accuracy Score: **93%** (0.9316600714093861)
 - Confusion Matrix
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
