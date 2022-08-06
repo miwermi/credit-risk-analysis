@@ -7,7 +7,7 @@ The purpose of this analysis is to use different machine learning methods to rev
 Because all machine learning techniques are attempting to predict future outcomes based on already existing data, there is no absolute view of the future and no method can predict it perfectly. Six methods were use to analyze loan data from LendingClub, a popular lending services company. Each is listed below with the typical drawback of that method and the results of each analysis.
 
 ### Oversampling
-- Typical drawback of this method: Oversampling is prone to overfitting. Overfitting often fails to predict future data reliably because results correspond too closeely or exactly to the training and test sets.
+- Typical drawback of this method: Oversampling is prone to overfitting. Overfitting often fails to predict future data reliably because results correspond too closely or exactly to the training and test sets.
 - Accuracy Score: 66% (0.6620175698580149)
 - Confusion Matrix:
 
