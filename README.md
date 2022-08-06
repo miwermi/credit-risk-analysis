@@ -47,7 +47,7 @@ Because all machine learning techniques are attempting to predict future outcome
 <img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/undersampling.jpg" alt ="graphic">
 
 ### Combination (Over+Under) Sampling with SMOTEENN (Edited Nearest Neighbors)
-- Typical drawback of this method:
+- Typical drawback of this method: Using SMOTE to oversample via synthetic methods to help overcome class imbalances -- and then also ENN and choose more relevant minority classes may not make any relevant gains in predictive accuracy but it may provied quality comparison value.
 - Accuracy Score: **65%** (0.6461148570422992)
 - Confusion Matrix
   	
@@ -60,7 +60,7 @@ Because all machine learning techniques are attempting to predict future outcome
 <img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/smoteenn.jpg" alt ="graphic">
 
 ### Ensemble Learning with Random Forest
-- Typical drawback of this method:
+- Typical drawback of this method: Complexity. Ensemble learning methods use combined methods to predict and are best used when *performance* on a predictive modeling project is the *most important outcome*. The reasoning for the higher performance is not always easy to decipher though, and depending on the size of the dataset, ensemble modeling can end up using far more resources.
 - Accuracy Score: **79%** (0.7885466545953005) 
 - Confusion Matrix:
   	
@@ -73,7 +73,7 @@ Because all machine learning techniques are attempting to predict future outcome
 <img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/randomforest.jpg" alt ="graphic">
 
 ### Ensemble Learning with Easy Ensemble
-- Typical drawback of this method:
+- Typical drawback of this method: Complexity. Ensemble learning methods use combined methods to predict and are best used when *performance* on a predictive modeling project is the *most important outcome*. The reasoning for the higher performance is not always easy to decipher though, and depending on the size of the dataset, ensemble modeling can end up using far more resources. (same as above)
 - Accuracy Score: **93%** (0.9316600714093861)
 - Confusion Matrix
 
