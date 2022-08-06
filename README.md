@@ -4,7 +4,7 @@
 The purpose of this analysis is to use different machine learning methods to review loan data and analyze lending risk -- and to ascertain the differences and value in each of the methods. Using Python and the SciKit-Learn Library to build and evaluate several models, the results below reveal the variation in model outcomes and predicted risk. The final summary compares the strengths and weakness of each model.
 
 ## Results
-Because all machine learning techniques are attempting to predict future outcomes based on already existing data, there is no absolute view of the future and no method can predict it perfectly. Six methods were use to analyze loan data from LendingClub, a popular lending services company. Each is listed below with the typical drawback of that method and the results of each analysis.
+Six different machine learning methods were use to analyze loan data from LendingClub, a popular lending services company. Each method is listed below with the typical drawback of that method (no method is perfect) and the results of each analysis.
 
 ### Oversampling
 - Typical drawback of this method: Oversampling is prone to overfitting. Overfitting often fails to predict future data reliably because results correspond too closely or exactly to the training and test sets.
@@ -86,4 +86,4 @@ Because all machine learning techniques are attempting to predict future outcome
 <img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/easyensemble.jpg" alt ="graphic">
 
 ## Summary
-Summarizing the results of the machine learning models, and a recommendation on the model to use, if any. Justified reasoning.
+Because the final ensemble learning method produed the highest accuracy score (93%) and the highest F1 score -- as well as great precision and sensitivity scores, it would appear to be the best method for predicting risk for this data.
