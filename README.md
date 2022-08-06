@@ -5,7 +5,7 @@ The purpose of this analysis is to use different machine learning methods to rev
 
 ## Results
 ### Oversampling
-- Accuracy Score
+- Accuracy Score: 
 - Confusion Matrix
 - Imbalanced Classification Report
 
@@ -24,8 +24,16 @@ The purpose of this analysis is to use different machine learning methods to rev
 - Confusion Matrix
 - Imbalanced Classification Report
 
-### Ensemble Learning with Random Forest & Easy Ensemble
-- Accuracy Score
+### Ensemble Learning with Random Forest
+- Accuracy Score: 79% (0.7885466545953005) 
+- Confusion Matrix:  	
+   |  | Predicted High-Risk (0) |	Predicted Low-Risk (1) |
+   | Actual High-Risk (0) | 93 |	8 |
+   | Actual Low-Risk (1) |	983 | 16121 |
+- Imbalanced Classification Report
+
+### Ensemble Learning with Easy Ensemble
+- Accuracy Score: 93% (0.9316600714093861)
 - Confusion Matrix
 - Imbalanced Classification Report
 
