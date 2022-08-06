@@ -5,39 +5,69 @@ The purpose of this analysis is to use different machine learning methods to rev
 
 ## Results
 ### Oversampling
-- Accuracy Score: 
+- Accuracy Score: 66% (0.6620175698580149)
 - Confusion Matrix
+
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) | 	73 |   	 28 |
+  | Actual Low-Risk (1) | 6820 | 	10284 |
+
 - Imbalanced Classification Report
 
 ### Oversampling with SMOTE
-- Accuracy Score
+- Accuracy Score: 66% (0.6568196079430206)
 - Confusion Matrix
+
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) | 	62 | 	  39 |
+  | Actual Low-Risk (1) | 5135 | 11969 |
+
 - Imbalanced Classification Report
 
 ### Undersampling
-- Accuracy Score
+- Accuracy Score: 54% (0.5442661782548694)
 - Confusion Matrix
+
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) | 	 70 |   	31 |
+  | Actual Low-Risk (1) | 10340 | 	6764 |
+  
 - Imbalanced Classification Report
 
-### Combination Over/Under Sampling with SMOTEEN
-- Accuracy Score
+### Combination (Over+Under) Sampling with SMOTEENN
+- Accuracy Score: 65% (0.6461148570422992)
 - Confusion Matrix
+  	
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) |	73 |	  28 |
+  | Actual Low-Risk (1) |	7364 |	9740 |
+  
 - Imbalanced Classification Report
 
 ### Ensemble Learning with Random Forest
 - Accuracy Score: 79% (0.7885466545953005) 
 - Confusion Matrix:
   	
-  | --------------------- | Predicted High-Risk (0) | Predicted Low-Risk (1) |
-  | --------------------- | ----------------------- | ---------------------- |
-  | Actual High-Risk (0)  | -------------------- 93 | -------------------- 8 |
-  | Actual Low-Risk (1)   | ------------------- 983 | ---------------- 16121 |
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) | 	71 |    30 | 
+  | Actual Low-Risk (1) | 2153 | 14951 | 
   
 - Imbalanced Classification Report
 
 ### Ensemble Learning with Easy Ensemble
 - Accuracy Score: 93% (0.9316600714093861)
 - Confusion Matrix
+
+  |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | ---: | ---: | ---: |
+  | Actual High-Risk (0) | 93 |     8 |
+  | Actual Low-Risk (1) | 983 | 16121 |
+  
 - Imbalanced Classification Report
 
 ## Summary
