@@ -28,10 +28,10 @@ The purpose of this analysis is to use different machine learning methods to rev
 - Accuracy Score: 79% (0.7885466545953005) 
 - Confusion Matrix:
   	
-  | -------------------- | Predicted High-Risk (0) | Predicted Low-Risk (1) |
-  | -------------------- | ----------------------- | ---------------------- |
-  | Actual High-Risk (0) | -------------------- 93 | --------------------	8 |
-  | Actual Low-Risk (1)  | --------------------983 | -----------------16121 |
+  | --------------------- | Predicted High-Risk (0) | Predicted Low-Risk (1) |
+  | --------------------- | ----------------------- | ---------------------- |
+  | Actual High-Risk (0)  | -------------------- 93 | -------------------- 8 |
+  | Actual Low-Risk (1)   | ------------------- 983 | ---------------- 16121 |
   
 - Imbalanced Classification Report
 
