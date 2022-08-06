@@ -13,8 +13,8 @@ Because all machine learning techniques are attempting to predict future outcome
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) | 	73 |   	 28 |
-  | Actual Low-Risk (1) | 6820 | 	10284 |
+  | **Actual High-Risk (0)** | 	73 |   	 28 |
+  | **Actual Low-Risk (1)** | 6820 | 	10284 |
 
 - Imbalanced Classification Report:
 
@@ -25,8 +25,8 @@ Because all machine learning techniques are attempting to predict future outcome
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) | 	62 | 	  39 |
-  | Actual Low-Risk (1) | 5135 | 11969 |
+  | **Actual High-Risk (0)** | 	62 | 	  39 |
+  | **Actual Low-Risk (1)** | 5135 | 11969 |
 
 - Imbalanced Classification Report
 
@@ -37,8 +37,8 @@ Because all machine learning techniques are attempting to predict future outcome
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) | 	 70 |   	31 |
-  | Actual Low-Risk (1) | 10340 | 	6764 |
+  | **Actual High-Risk (0)**  | 	 70 |   	31 |
+  | **Actual Low-Risk (1)** | 10340 | 	6764 |
   
 - Imbalanced Classification Report
 
@@ -49,8 +49,8 @@ Because all machine learning techniques are attempting to predict future outcome
   	
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) |	73 |	  28 |
-  | Actual Low-Risk (1) |	7364 |	9740 |
+  | **Actual High-Risk (0)**  |	73 |	  28 |
+  | **Actual Low-Risk (1)** |	7364 |	9740 |
   
 - Imbalanced Classification Report
 
@@ -61,8 +61,8 @@ Because all machine learning techniques are attempting to predict future outcome
   	
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) | 	71 |    30 | 
-  | Actual Low-Risk (1) | 2153 | 14951 | 
+  | **Actual High-Risk (0)**  | 	71 |    30 | 
+  | **Actual Low-Risk (1)** | 2153 | 14951 | 
   
 - Imbalanced Classification Report
 
@@ -73,8 +73,8 @@ Because all machine learning techniques are attempting to predict future outcome
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
-  | Actual High-Risk (0) | 93 |     8 |
-  | Actual Low-Risk (1) | 983 | 16121 |
+  | **Actual High-Risk (0)**  | 93 |     8 |
+  | **Actual Low-Risk (1)** | 983 | 16121 |
   
 - Imbalanced Classification Report
 
