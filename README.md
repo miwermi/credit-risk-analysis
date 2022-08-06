@@ -21,14 +21,14 @@ Because all machine learning techniques are attempting to predict future outcome
 ### Oversampling with SMOTE (Synthetic Minority Oversampling Technique)
 - Typical drawback of this method: SMOTE is still oversampling and is still prone to overfitting. Using the synthetic method can help to overcome class imbalances and lessen the exactness of outcome dependency on minority classes.
 - Accuracy Score: **66%** (0.6568196079430206)
-- Confusion Matrix
+- Confusion Matrix:
 
   |  | Predicted High-Risk (0) | Predicted Low-Risk (1) |
   | ---: | ---: | ---: |
   | **Actual High-Risk (0)** | 	62 | 	  39 |
   | **Actual Low-Risk (1)** | 5135 | 11969 |
 
-- Imbalanced Classification Report
+- Imbalanced Classification Report:
 
 ### Undersampling
 - Typical drawback of this method: Undersampling tries to balance data by keeping all minority classes. Undersampling can often lower accuracy for datasets having minority classes not closely correlated to the majority classes.
@@ -39,8 +39,8 @@ Because all machine learning techniques are attempting to predict future outcome
   | ---: | ---: | ---: |
   | **Actual High-Risk (0)**  | 	 70 |   	31 |
   | **Actual Low-Risk (1)** | 10340 | 	6764 |
-  
-- Imbalanced Classification Report
+
+- Imbalanced Classification Report:
 
 ### Combination (Over+Under) Sampling with SMOTEENN (Edited Nearest Neighbors)
 - Typical drawback of this method:
@@ -51,8 +51,8 @@ Because all machine learning techniques are attempting to predict future outcome
   | ---: | ---: | ---: |
   | **Actual High-Risk (0)**  |	73 |	  28 |
   | **Actual Low-Risk (1)** |	7364 |	9740 |
-  
-- Imbalanced Classification Report
+
+- Imbalanced Classification Report:
 
 ### Ensemble Learning with Random Forest
 - Typical drawback of this method:
@@ -64,7 +64,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual High-Risk (0)**  | 	71 |    30 | 
   | **Actual Low-Risk (1)** | 2153 | 14951 | 
   
-- Imbalanced Classification Report
+- Imbalanced Classification Report:
 
 ### Ensemble Learning with Easy Ensemble
 - Typical drawback of this method:
@@ -76,7 +76,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual High-Risk (0)**  | 93 |     8 |
   | **Actual Low-Risk (1)** | 983 | 16121 |
   
-- Imbalanced Classification Report
+- Imbalanced Classification Report:
 
 ## Summary
 Summarizing the results of the machine learning models, and a recommendation on the model to use, if any. Justified reasoning.
