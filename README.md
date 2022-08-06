@@ -17,6 +17,8 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** | 6820 | 	10284 |
 
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/oversampling.jpg" alt ="graphic">
+
 
 ### Oversampling with SMOTE (Synthetic Minority Oversampling Technique)
 - Typical drawback of this method: SMOTE is still oversampling and is still prone to overfitting. Using the synthetic method can help to overcome class imbalances and lessen the exactness of outcome dependency on minority classes.
@@ -29,6 +31,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** | 5135 | 11969 |
 
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/smote.jpg" alt ="graphic">
 
 ### Undersampling
 - Typical drawback of this method: Undersampling tries to balance data by keeping all minority classes. Undersampling can often lower accuracy for datasets having minority classes not closely correlated to the majority classes.
@@ -41,6 +44,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** | 10340 | 	6764 |
 
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/undersampling.jpg" alt ="graphic">
 
 ### Combination (Over+Under) Sampling with SMOTEENN (Edited Nearest Neighbors)
 - Typical drawback of this method:
@@ -53,6 +57,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** |	7364 |	9740 |
 
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/smoteenn.jpg" alt ="graphic">
 
 ### Ensemble Learning with Random Forest
 - Typical drawback of this method:
@@ -65,6 +70,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** | 2153 | 14951 | 
   
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/randomforest.jpg" alt ="graphic">
 
 ### Ensemble Learning with Easy Ensemble
 - Typical drawback of this method:
@@ -77,6 +83,7 @@ Because all machine learning techniques are attempting to predict future outcome
   | **Actual Low-Risk (1)** | 983 | 16121 |
   
 - Imbalanced Classification Report:
+<img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/easyensemble.jpg" alt ="graphic">
 
 ## Summary
 Summarizing the results of the machine learning models, and a recommendation on the model to use, if any. Justified reasoning.
