@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview
-The purpose of this analysis is to use different machine learning methods to review loan data and analyze lending risk -- and to ascertain the differences and value in each of the methods. Using Python and the SciKit-Learn Library to build and evaluate several models, the results below reveal the variation in model outcomes and predicted risk. The final summary compares the strengths and weakness of each model.
+The purpose of this analysis was to experiement with different machine learning methods to review loan data and analyze lending risk -- and to ascertain the differences and value in each of the methods. Using Python and the SciKit-Learn Library to build and evaluate several models, the results below reveal the variation in model outcomes and predicted risk. The final summary identifies the best model for this dataset.
 
 ## Results
 Six different machine learning methods were use to analyze loan data from LendingClub, a popular lending services company. Each method is listed below with the typical drawback of that method (no method is perfect) and the results of each analysis.
