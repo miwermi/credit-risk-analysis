@@ -86,4 +86,4 @@ Six different machine learning methods were use to analyze loan data from Lendin
 <img src="https://github.com/miwermi/credit-risk-analysis/blob/main/graphics/easyensemble.jpg" alt ="graphic">
 
 ## Summary
-Because the final ensemble learning method produed the highest accuracy score (93%) and the highest F1 score -- as well as great precision and sensitivity scores, it would appear to be the best method for predicting risk for this data.
+Because the final Easy Ensemble learning method produed the highest accuracy score (93%) and the highest F1 score -- as well as great precision and sensitivity scores, it would appear to be the best method for predicting risk for this data.
